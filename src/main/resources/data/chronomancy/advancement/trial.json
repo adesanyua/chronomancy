@@ -1,0 +1,23 @@
+{
+  "parent": "chronomancy:rift_heart",
+  "display": {
+    "icon": {
+      "id": "chronomancy:chronomaly_shard"
+    },
+    "title": {
+      "translate": "advancements.chronomancy.trial.title"
+    },
+    "description": {
+      "translate": "advancements.chronomancy.trial.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "granted": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

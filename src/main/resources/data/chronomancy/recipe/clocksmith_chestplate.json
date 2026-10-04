@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "irons_spellbooks:netherite_mage_chestplate"
+    },
+    {
+      "item": "chronomancy:time_rune"
+    },
+    {
+      "item": "irons_spellbooks:arcane_essence"
+    },
+    {
+      "item": "chronomancy:chronomaly_shard"
+    },
+    {
+      "item": "chronomancy:chronomaly_shard"
+    },
+    {
+      "item": "chronomancy:chronomaly_shard"
+    },
+    {
+      "item": "irons_spellbooks:magic_cloth"
+    },
+    {
+      "item": "irons_spellbooks:magic_cloth"
+    }
+  ],
+  "result": {
+    "id": "chronomancy:clocksmith_chestplate",
+    "count": 1,
+    "components": {
+      "irons_spellbooks:spell_container": {
+        "data": [],
+        "maxSpells": 1,
+        "mustEquip": true,
+        "spellWheel": true
+      }
+    }
+  }
+}

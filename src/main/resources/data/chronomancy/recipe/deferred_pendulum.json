@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "CAC",
+    "CRC",
+    "ESE"
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:chain"
+    },
+    "A": {
+      "item": "irons_spellbooks:arcane_ingot"
+    },
+    "R": {
+      "item": "chronomancy:time_rune"
+    },
+    "E": {
+      "item": "irons_spellbooks:arcane_essence"
+    },
+    "S": {
+      "item": "chronomancy:chronomaly_shard"
+    }
+  },
+  "result": {
+    "id": "chronomancy:deferred_pendulum",
+    "count": 1
+  }
+}

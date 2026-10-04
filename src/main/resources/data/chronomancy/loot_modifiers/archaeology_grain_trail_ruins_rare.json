@@ -1,0 +1,11 @@
+{
+  "type": "chronomancy:replace_with_chance",
+  "conditions": [
+    {
+      "condition": "neoforge:loot_table_id",
+      "loot_table_id": "minecraft:archaeology/trail_ruins_rare"
+    }
+  ],
+  "item": "chronomancy:grain_of_time",
+  "chance": 0.08
+}

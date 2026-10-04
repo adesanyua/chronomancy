@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "chronomancy:item/hourglass_of_focus"
+  }
+}

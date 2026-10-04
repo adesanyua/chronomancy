@@ -1,0 +1,23 @@
+{
+  "parent": "chronomancy:first_cast",
+  "display": {
+    "icon": {
+      "id": "chronomancy:hourglass_of_focus"
+    },
+    "title": {
+      "translate": "advancements.chronomancy.stasis.title"
+    },
+    "description": {
+      "translate": "advancements.chronomancy.stasis.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "granted": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "parent": "chronomancy:first_cast",
+  "display": {
+    "icon": {
+      "id": "chronomancy:temporal_anchor"
+    },
+    "title": {
+      "translate": "advancements.chronomancy.world_stop.title"
+    },
+    "description": {
+      "translate": "advancements.chronomancy.world_stop.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "granted": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

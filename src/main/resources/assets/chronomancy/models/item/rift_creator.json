@@ -1,0 +1,18 @@
+{
+  "loader": "neoforge:separate_transforms",
+  "gui_light": "front",
+  "textures": {
+    "particle": "chronomancy:item/rift_creator_model"
+  },
+  "base": {
+    "parent": "chronomancy:item/rift_creator_held"
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "chronomancy:item/rift_creator_icon"
+    },
+    "fixed": {
+      "parent": "chronomancy:item/rift_creator_icon"
+    }
+  }
+}

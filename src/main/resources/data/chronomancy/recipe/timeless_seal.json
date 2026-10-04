@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " C ",
+    "SGS",
+    "IPI"
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:chain"
+    },
+    "S": {
+      "item": "chronomancy:chronomaly_shard"
+    },
+    "G": {
+      "item": "chronomancy:grain_of_time"
+    },
+    "I": {
+      "item": "minecraft:gold_ingot"
+    },
+    "P": {
+      "item": "irons_spellbooks:protection_rune"
+    }
+  },
+  "result": {
+    "id": "chronomancy:timeless_seal",
+    "count": 1
+  }
+}

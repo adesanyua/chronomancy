@@ -1,0 +1,9 @@
+{
+  "amount": 0.05,
+  "attribute": "chronomancy:chronomancy_spell_power",
+  "containerItem": {
+    "count": 1,
+    "id": "chronomancy:chronomancy_upgrade_orb"
+  },
+  "operation": "add_multiplied_base"
+}

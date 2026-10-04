@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "ECE",
+    "IRI",
+    "S S"
+  ],
+  "key": {
+    "E": {
+      "item": "irons_spellbooks:arcane_essence"
+    },
+    "C": {
+      "item": "minecraft:chain"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "R": {
+      "item": "chronomancy:time_rune"
+    },
+    "S": {
+      "item": "chronomancy:chronomaly_shard"
+    }
+  },
+  "result": {
+    "id": "chronomancy:temporal_anchor",
+    "count": 1
+  }
+}

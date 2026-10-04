@@ -1,0 +1,23 @@
+{
+  "parent": "chronomancy:clocksmith",
+  "display": {
+    "icon": {
+      "id": "chronomancy:second_chance_watch"
+    },
+    "title": {
+      "translate": "advancements.chronomancy.second_chance.title"
+    },
+    "description": {
+      "translate": "advancements.chronomancy.second_chance.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "granted": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

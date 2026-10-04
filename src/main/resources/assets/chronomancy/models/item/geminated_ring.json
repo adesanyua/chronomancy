@@ -1,0 +1,6 @@
+{
+  "parent": "irons_spellbooks:item/ring",
+  "textures": {
+    "layer0": "chronomancy:item/geminated_ring"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "entries": [
+    "chronomancy:archaeology_grain_desert_pyramid",
+    "chronomancy:archaeology_grain_desert_well",
+    "chronomancy:archaeology_grain_trail_ruins_common",
+    "chronomancy:archaeology_grain_trail_ruins_rare"
+  ]
+}

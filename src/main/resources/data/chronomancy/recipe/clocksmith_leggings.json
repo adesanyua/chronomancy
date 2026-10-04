@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "irons_spellbooks:netherite_mage_leggings"
+    },
+    {
+      "item": "chronomancy:time_rune"
+    },
+    {
+      "item": "irons_spellbooks:arcane_essence"
+    },
+    {
+      "item": "chronomancy:chronomaly_shard"
+    },
+    {
+      "item": "chronomancy:chronomaly_shard"
+    },
+    {
+      "item": "chronomancy:chronomaly_shard"
+    },
+    {
+      "item": "irons_spellbooks:magic_cloth"
+    },
+    {
+      "item": "irons_spellbooks:magic_cloth"
+    }
+  ],
+  "result": {
+    "id": "chronomancy:clocksmith_leggings",
+    "count": 1
+  }
+}

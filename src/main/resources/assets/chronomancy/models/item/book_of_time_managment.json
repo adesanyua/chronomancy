@@ -1,0 +1,15 @@
+{
+  "loader": "neoforge:separate_transforms",
+  "gui_light": "front",
+  "textures": {
+    "particle": "chronomancy:item/time_book_cover"
+  },
+  "base": {
+    "parent": "chronomancy:item/book_of_time_managment_held"
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "chronomancy:item/book_of_time_managment_icon"
+    }
+  }
+}

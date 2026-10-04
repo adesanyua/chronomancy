@@ -1,0 +1,30 @@
+{
+  "parent": "chronomancy:clock_hand",
+  "display": {
+    "icon": {
+      "id": "chronomancy:book_of_time_managment"
+    },
+    "title": {
+      "translate": "advancements.chronomancy.timeless_book.title"
+    },
+    "description": {
+      "translate": "advancements.chronomancy.timeless_book.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "chronomancy:book_of_time_managment"
+          }
+        ]
+      }
+    }
+  }
+}

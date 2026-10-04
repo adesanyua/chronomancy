@@ -1,0 +1,23 @@
+{
+  "parent": "chronomancy:grain",
+  "display": {
+    "icon": {
+      "id": "chronomancy:clocksmith_helmet"
+    },
+    "title": {
+      "translate": "advancements.chronomancy.clocksmith.title"
+    },
+    "description": {
+      "translate": "advancements.chronomancy.clocksmith.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "granted": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

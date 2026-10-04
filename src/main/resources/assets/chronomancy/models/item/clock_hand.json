@@ -1,0 +1,20 @@
+{
+  "loader": "neoforge:separate_transforms",
+  "gui_light": "front",
+  "textures": {"particle": "chronomancy:item/clock_hand"},
+  "perspectives": {
+    "gui": {"parent": "chronomancy:item/clock_hand_icon"}
+  },
+  "base": {
+  "parent": "builtin/entity",
+  "display": {
+    "thirdperson_righthand": {"rotation": [0, -90, 0], "translation": [0, 1, 0], "scale": [0.8, 0.8, 0.8]},
+    "thirdperson_lefthand": {"rotation": [0, 90, 0], "translation": [0, 1, 0], "scale": [0.8, 0.8, 0.8]},
+    "firstperson_righthand": {"rotation": [0, -90, 15], "translation": [1, 1, 0], "scale": [0.75, 0.75, 0.75]},
+    "firstperson_lefthand": {"rotation": [0, 90, -15], "translation": [1, 1, 0], "scale": [0.75, 0.75, 0.75]},
+    "gui": {"rotation": [0, 0, -40], "translation": [0, -2, 0], "scale": [0.48, 0.48, 0.48]},
+    "ground": {"rotation": [0, 0, 0], "translation": [0, 3, 0], "scale": [0.35, 0.35, 0.35]},
+    "fixed": {"rotation": [0, 0, -40], "translation": [0, -2, 0], "scale": [0.5, 0.5, 0.5]}
+  }
+  }
+}

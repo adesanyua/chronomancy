@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "irons_spellbooks:netherite_mage_boots"
+    },
+    {
+      "item": "chronomancy:time_rune"
+    },
+    {
+      "item": "irons_spellbooks:arcane_essence"
+    },
+    {
+      "item": "chronomancy:chronomaly_shard"
+    },
+    {
+      "item": "chronomancy:chronomaly_shard"
+    },
+    {
+      "item": "irons_spellbooks:magic_cloth"
+    }
+  ],
+  "result": {
+    "id": "chronomancy:clocksmith_boots",
+    "count": 1
+  }
+}

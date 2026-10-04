@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " SI",
+    " A ",
+    "RI "
+  ],
+  "key": {
+    "S": {
+      "item": "chronomancy:chronomaly_shard"
+    },
+    "I": {
+      "item": "minecraft:copper_ingot"
+    },
+    "A": {
+      "item": "irons_spellbooks:arcane_ingot"
+    },
+    "R": {
+      "item": "chronomancy:time_rune"
+    }
+  },
+  "result": {
+    "id": "chronomancy:clockwork_key",
+    "count": 1
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "RER",
+    "GAG",
+    "RER"
+  ],
+  "key": {
+    "R": {
+      "item": "chronomancy:time_rune"
+    },
+    "E": {
+      "item": "irons_spellbooks:arcane_essence"
+    },
+    "G": {
+      "item": "chronomancy:grain_of_time"
+    },
+    "A": {
+      "item": "irons_spellbooks:arcane_ingot"
+    }
+  },
+  "result": {
+    "id": "chronomancy:geminated_ring",
+    "count": 1
+  }
+}

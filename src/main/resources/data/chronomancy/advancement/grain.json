@@ -1,0 +1,30 @@
+{
+  "parent": "chronomancy:root",
+  "display": {
+    "icon": {
+      "id": "chronomancy:grain_of_time"
+    },
+    "title": {
+      "translate": "advancements.chronomancy.grain.title"
+    },
+    "description": {
+      "translate": "advancements.chronomancy.grain.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "chronomancy:grain_of_time"
+          }
+        ]
+      }
+    }
+  }
+}

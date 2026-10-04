@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "chronomancy:time_rune"
+    },
+    "title": {
+      "translate": "advancements.chronomancy.root.title"
+    },
+    "description": {
+      "translate": "advancements.chronomancy.root.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false,
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+  },
+  "criteria": {
+    "granted": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

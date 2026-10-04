@@ -1,0 +1,47 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.chronomancy.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "TemporalStasisServerLevelMixin",
+    "TemporalDilationServerLevelMixin",
+    "WorldStopServerLevelMixin",
+    "WorldStopLevelMixin",
+    "ChronoHourglassSwingMixin",
+    "PersonalTimePlayerMixin",
+    "PersonalTimeLivingMixin",
+    "PersonalTimeFireMixin",
+    "PersonalTimeServerPlayerMixin",
+    "PersonalTimeMagicManagerMixin",
+    "InstantHealWorldStopMixin",
+    "InstantManaWorldStopMixin",
+    "TemporalDilationAirMixin",
+    "TemporalDilationJumpMixin",
+    "WalkAnimationStateAccessor"
+  ],
+  "client": [
+    "TemporalStasisClientLevelMixin",
+    "TemporalStasisGeoRendererFreezeMixin",
+    "TemporalStasisHeldItemTintMixin",
+    "TemporalStasisModelTintMixin",
+    "TemporalStasisRenderMixin",
+    "TemporalStasisRendererFreezeMixin",
+    "TemporalDilationClientMoveMixin",
+    "TemporalDilationWeatherMixin",
+    "WorldStopParticleFreezeMixin",
+    "SpellCopperParticleMixin",
+    "SpellCopperPacketMixin",
+    "WorldStopClientLevelMixin",
+    "WorldStopWeatherMixin",
+    "WorldStopPostEffectMixin",
+    "TimeDilationPostEffectMixin",
+    "PostChainAccessor",
+    "CopperEchoDispatchMixin",
+    "PhaseModelPartMixin",
+    "GeoArmorPhaseMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

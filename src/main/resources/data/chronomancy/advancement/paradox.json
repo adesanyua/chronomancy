@@ -1,0 +1,23 @@
+{
+  "parent": "chronomancy:stasis",
+  "display": {
+    "icon": {
+      "id": "chronomancy:cracked_dial"
+    },
+    "title": {
+      "translate": "advancements.chronomancy.paradox.title"
+    },
+    "description": {
+      "translate": "advancements.chronomancy.paradox.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "granted": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

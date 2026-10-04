@@ -1,0 +1,26 @@
+{
+  "parent": "chronomancy:rift_maker_arrives",
+  "display": {
+    "icon": {
+      "id": "chronomancy:rift_creator"
+    },
+    "title": {
+      "translate": "advancements.chronomancy.rift_maker.title"
+    },
+    "description": {
+      "translate": "advancements.chronomancy.rift_maker.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "granted": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 200
+  }
+}

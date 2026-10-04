@@ -1,0 +1,23 @@
+{
+  "parent": "chronomancy:trial",
+  "display": {
+    "icon": {
+      "id": "chronomancy:rift_maker_spawn_egg"
+    },
+    "title": {
+      "translate": "advancements.chronomancy.rift_maker_arrives.title"
+    },
+    "description": {
+      "translate": "advancements.chronomancy.rift_maker_arrives.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "granted": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

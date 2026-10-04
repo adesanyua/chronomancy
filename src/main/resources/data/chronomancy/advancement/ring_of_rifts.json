@@ -1,0 +1,30 @@
+{
+  "parent": "chronomancy:clocksmith",
+  "display": {
+    "icon": {
+      "id": "chronomancy:ring_of_rifts"
+    },
+    "title": {
+      "translate": "advancements.chronomancy.ring_of_rifts.title"
+    },
+    "description": {
+      "translate": "advancements.chronomancy.ring_of_rifts.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "chronomancy:ring_of_rifts"
+          }
+        ]
+      }
+    }
+  }
+}

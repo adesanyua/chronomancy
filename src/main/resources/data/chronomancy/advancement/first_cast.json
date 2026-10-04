@@ -1,0 +1,23 @@
+{
+  "parent": "chronomancy:root",
+  "display": {
+    "icon": {
+      "id": "irons_spellbooks:scroll"
+    },
+    "title": {
+      "translate": "advancements.chronomancy.first_cast.title"
+    },
+    "description": {
+      "translate": "advancements.chronomancy.first_cast.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "granted": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

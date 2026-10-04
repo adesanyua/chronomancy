@@ -1,0 +1,30 @@
+{
+  "parent": "chronomancy:grain",
+  "display": {
+    "icon": {
+      "id": "chronomancy:clock_hand"
+    },
+    "title": {
+      "translate": "advancements.chronomancy.clock_hand.title"
+    },
+    "description": {
+      "translate": "advancements.chronomancy.clock_hand.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "chronomancy:clock_hand"
+          }
+        ]
+      }
+    }
+  }
+}

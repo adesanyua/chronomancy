@@ -1,0 +1,30 @@
+{
+  "parent": "chronomancy:ring_of_rifts",
+  "display": {
+    "icon": {
+      "id": "chronomancy:rift_heart"
+    },
+    "title": {
+      "translate": "advancements.chronomancy.rift_heart.title"
+    },
+    "description": {
+      "translate": "advancements.chronomancy.rift_heart.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "chronomancy:rift_heart"
+          }
+        ]
+      }
+    }
+  }
+}
